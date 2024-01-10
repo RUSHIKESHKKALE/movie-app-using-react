@@ -1,0 +1,38 @@
+.nav {
+display: flex;
+justify-content: space-between;
+height: 40px;
+background : linear-gradient(skyblue,blue);
+align-items:center;
+position:relative;
+  }
+
+.title {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    Text-transform: uppercase;
+    margin-left: 1.5rem;
+    &:hover{color:#0f0};
+  }
+
+.cartContainer {
+    position: relative;
+    cursor: pointer;
+  }
+
+.cartIcon{
+    height: 40px;
+    margin-right: 20px;
+}
+
+.cartCount{
+background-color: orange;
+position: absolute;
+border-radius:50%;
+padding: 4px 8px;
+right: 10px;
+top: -5px;
+font-size: 12px;
+visibility: visible;
+  }
